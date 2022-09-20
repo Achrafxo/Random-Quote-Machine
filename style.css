@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.app_container {
+    background-color: #017398;
+    width: 600px;
+    padding: 20px;
+    color: white;
+    display: flex;align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 17px 26px 30px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    font-size: 48px;
+    text-align: center;
+}
+
+.icn {
+    font-size: 37px;
+    margin: 10px;
+}
+.quote_txt {
+    font-size: 22px;
+}
+
+.quote_author {
+    margin-top: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 44px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
